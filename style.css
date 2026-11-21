@@ -1,0 +1,537 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Allura', cursive;
+}
+
+h2 {
+    font-family: 'Allura', cursive;
+}
+
+img {
+    box-shadow: 5px 5px 5px black ;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    overflow: hidden; 
+    width: 100%;
+    position: relative;
+    display: block;
+
+
+}
+.logo-img {
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+.logo-marca {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #fcdcb2;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.logo-foto {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: none;
+    ;
+}
+
+.conteudo {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.titulo {
+    background-color: #e8ded0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+}
+
+.texto-titulo {
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.apresentacao {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
+
+.apresentacoes {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.apresentacao1 {
+    background-color: #b89d7c;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.apresentacao2 {
+    background-color: #4a301d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+    color: #f8f4ee;
+    width: 50%;
+}
+
+.apresentacao1, .apresentacao2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    min-height: 300px;
+
+}
+
+.texto1apresentacao1 {
+    right: 25%;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.texto2apresentacao1 {
+    width: 60%;
+    left: 10%;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.texto3apresentacao1 {
+    width: 60%;
+    left: 12%;
+    position: relative;
+
+}
+
+.texto1apresentacao2, .texto3apresentacao2 {
+    left: 10%;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.texto2apresentacao2, .texto4apresentacao2 {
+    width: 50%;
+    left: 10%;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.img-apresentacao {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40%;
+    box-shadow: 5px 5px 40px goldenrod;
+    object-fit: cover;
+}
+
+.apresentacoes {
+    display: flex;
+}
+
+.caixa-antesdepois {
+    background-color: #e8ded0;
+}
+
+.titulo-antesdepois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.texto-titulo-antesdepois {
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.conteudo-antesdepois {
+    width: 100%;
+    display: flex;
+    min-height: 70vh;
+}
+
+.antesdepois {
+    width: 50%;
+    display: flex;
+    position: relative;
+    align-items: center;
+} 
+
+.imgs-antesdepois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 5%;
+    font-size: clamp(18px, 2vw, 32px);
+    width: 805;
+}
+
+.img-antes {
+    width: 45%;
+    transform: translateY(-15%);
+}
+
+.img-depois {
+    width: 45%;
+    transform: translateY(15%);
+}
+
+.foto-antesdepois {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.texto-depois {
+    text-align: right;
+}
+
+.divisao {
+    width: 8px;
+    background-color: goldenrod;
+    border-radius: 50%;
+    align-self: stretch;
+    margin-bottom: 10px;
+}
+
+.caixa-cilios {
+    background-color: #4a301d;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.titulo-cilios {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 40%;
+    
+}
+
+.texto-titulo-cilios {
+    font-size: 32px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #f8f4ee;
+    font-family: 'Playfair Display', serif;
+    transform: translate(20%);
+    
+}
+
+.cilios-do-titulo {
+    font-family: 'Segoe Script', cursive;
+    font-size: 40px;
+    color: #f8f4ee;
+    
+}
+
+
+
+
+.conteudo-cilios {
+    display: flex;
+    width: 100%;
+}
+
+.cilios1, .cilios2 {
+    display: grid;
+    width: 50%;
+}
+
+.cilios1 {
+    gap: 30%;
+}
+
+.cilios2 {
+    height: 100%;
+    position: absolute;
+    transform: translate(100%, -20%);
+    gap: 0%;
+}
+
+
+.tipo1, .tipo2 {
+    display: flex;
+
+}
+
+.tipo1 {
+    margin-left: 5%;
+}
+
+.tipo2 {
+    margin-right: 5%;
+}
+
+.texto-tipo {
+    display: grid;
+    margin-left: 5%;
+    color: white;
+    margin-right: 5%;
+}
+
+.foto-tipo {
+    width: 15%;
+    height: 70px;
+    border-radius: 15%;
+    transition: transform 0.5s ease;
+}
+
+.titulo-tipo {
+    font-size: 30px;
+    font-family: 'Segoe Script', cursive;
+}
+
+.sobre-tipo {
+    font-size: 14px;
+}
+
+.foto-tipo:hover {
+    transform: scale(2);
+
+}
+
+
+
+
+
+
+.caixa-bio {
+    background-color: #e8ded0;
+}
+
+.titulo-bio {
+    height: 50px;
+    padding-top: 20px;
+    transform: translate(10%);
+}
+
+.texto-titulo-bio {
+    font-size: 30px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+}
+
+.conteudo-bio {
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.espaco-bio {
+    width: 50%;
+    height: 100%;
+}
+
+.img-fundo-bio {
+    background-color: #4a301d;
+    width: 300px;
+    height: 350px;
+    transform: translate(170px, 20px);
+    border-radius: 5%;
+}
+
+.bio {
+    transform: translateY(200px);
+}
+
+.texto-bio {
+    width: 500px;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.img-foto-bio {
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    z-index: 2;
+    transform: translate(200px, 30px);
+}
+
+.foto-bio {
+    width: 300px;
+    height: 350px;
+    border-radius: 5%;
+    /* object-fit: cover; */
+}
+
+.img-bio {
+    display: flex;
+    position: relative;
+}
+
+.caixas-contato {
+    background-color: #a77b4585;
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+}
+
+.caixa-contato {
+    flex: 1;
+}
+
+.logo-contato {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 4px solid transparent;
+    background: linear-gradient(white, white) padding-box, linear-gradient(45deg, #a77b4585, #4a301d) border-box;
+    margin-right: 100px;
+}
+
+.caixa-contato1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-contato2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.simbolo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    transition: transform 0.5s ease;
+
+}
+
+.simbolo-agendar {
+    background-color: #4a301d;
+    border-radius: 10px;
+}
+
+.texto-agendar {
+    padding: 10px;
+    color: #e8ded0;
+}
+
+.caixa-simbolos {
+    padding-top: 20px;
+    margin-right: 240px;
+
+}
+
+.simbolos {
+    padding-bottom: 10px;
+    display: grid;
+    gap: 5px;
+
+}
+
+.simbolo:hover {
+    transform: scale(1.2);
+
+}
+
+.contato-escrito {
+    color: #e8ded0;
+    position: relative;
+    display: grid;
+    gap: 20px;
+    position: absolute;
+    margin-bottom: 25px;
+}
+
+.escrito {
+    background-color: #4a301d;
+    padding: 10px 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.zap-flutuante-foto {
+    border-radius: 100%;
+    width: 100%;
+    height: 1005;
+}
+
+.zap-flutuante {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
+
+.zap-flutuante:hover {
+    transform: scale(1.2);
+}
+
