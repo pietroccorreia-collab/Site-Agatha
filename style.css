@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-p {
-    font-family: 'Montserrat', sans-serif;
-}
-
 h1 {
     font-family: 'Allura', cursive;
 }
@@ -30,19 +26,15 @@ a {
     width: 100%;
     position: relative;
     display: block;
-
-
 }
 .logo-img {
     width: 100%;
-    height: 200px;
+    height: 40vh;
     display: block;
 }
 
 .logo-marca {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+    border-radius: 100%;
     background-color: #fcdcb2;
     position: absolute;
     top: 80%;
@@ -55,11 +47,10 @@ a {
 }
 
 .logo-foto {
-    width: 250px;
-    height: 250px;
+    width: 18vw;
+    height: 40vh;
     border-radius: 50%;
     box-shadow: none;
-    ;
 }
 
 .conteudo {
@@ -70,7 +61,7 @@ a {
 .titulo {
     background-color: #e8ded0;
     width: 100%;
-    height: 70px;
+    height: 12vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,8 +71,6 @@ a {
 
 .texto-titulo {
     font-size: 32px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     font-family: 'Playfair Display', serif;
 }
 
@@ -100,7 +89,7 @@ a {
 
 .apresentacao1 {
     background-color: #b89d7c;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -116,7 +105,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 60vh;
+    height: 70vh;
     color: #f8f4ee;
     width: 50%;
 }
@@ -130,21 +119,20 @@ a {
     align-items: center;
     text-align: center;
     flex: 1;
-    min-height: 300px;
-
 }
 
 .texto1apresentacao1 {
     right: 25%;
     position: relative;
-    padding-bottom: 15px;
+    padding-bottom: 5%;
+    top: -10%;
 }
 
 .texto2apresentacao1 {
     width: 60%;
     left: 10%;
     position: relative;
-    padding-bottom: 5px;
+    padding-bottom: 1%;
 }
 
 .texto3apresentacao1 {
@@ -157,14 +145,15 @@ a {
 .texto1apresentacao2, .texto3apresentacao2 {
     left: 10%;
     position: relative;
-    padding-bottom: 8px;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 
 .texto2apresentacao2, .texto4apresentacao2 {
     width: 50%;
     left: 10%;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 4%;
 }
 
 .img-apresentacao {
@@ -191,8 +180,8 @@ a {
     justify-content: center;
     align-items: center;
     position: relative;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 4%;
+    padding-bottom: 3%;
 }
 
 .texto-titulo-antesdepois {
@@ -204,7 +193,7 @@ a {
 .conteudo-antesdepois {
     width: 100%;
     display: flex;
-    min-height: 70vh;
+    height: 70vh;
 }
 
 .antesdepois {
@@ -219,12 +208,11 @@ a {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     gap: 10%;
     font-size: clamp(18px, 2vw, 32px);
-    width: 805;
 }
 
 .img-antes {
@@ -242,20 +230,16 @@ a {
     border-radius: 5%;
 }
 
-
-
-
-
 .texto-depois {
     text-align: right;
 }
 
 .divisao {
-    width: 8px;
+    width: 0.5vw;
     background-color: goldenrod;
     border-radius: 50%;
     align-self: stretch;
-    margin-bottom: 10px;
+    margin-bottom: 4%;
 }
 
 .carrossel {
@@ -290,26 +274,25 @@ a {
 }
 
 .slide-texto {
-    padding: 20px;
-    margin-bottom: 8px;
+    padding: 5%;
     color: #f8f4ee;
 }
 
 .slide-texto h3 {
-    margin-bottom: 8px;
+    margin-bottom: 2%;
     font-family: 'Segoe Script', cursive;
     font-size: 160%;
 }
 
 .seta {
     position: absolute;
-    top: 175px;
+    top: 32%;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
-    width: 40px;
-    height: 40px;
+    width: 3vw;
+    height: 6vh;
     border-radius: 50%;
     font-size: 18px;
     cursor: pointer;
@@ -324,11 +307,11 @@ a {
 }
 
 .seta-esquerda {
-    left: 15px;
+    left: 3%;
 }
 
 .seta-direita {
-    right: 15px;
+    right: 3%;
 }
 
 .zap-cilios {
@@ -348,9 +331,6 @@ a {
     background-color: rgb(0, 255, 0);
 }
 
-
-
-
 .caixa-cilios {
     background-color: #4a301d;
     width: 100%;
@@ -363,119 +343,50 @@ a {
     justify-content: left;
     align-items: center;
     width: 40%;
-    
 }
 
 .texto-titulo-cilios {
     font-size: 32px;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding-top: 3%;
+    padding-bottom: 0%;
     color: #f8f4ee;
     font-family: 'Playfair Display', serif;
     transform: translate(20%);
-    
 }
 
 .cilios-do-titulo {
     font-family: 'Segoe Script', cursive;
     font-size: 40px;
     color: #f8f4ee;
-    
 }
-
-
-
 
 .conteudo-cilios {
     display: flex;
     width: 100%;
 }
 
-.cilios1, .cilios2 {
-    display: grid;
-    width: 50%;
-}
-
-.cilios1 {
-    gap: 30%;
-}
-
-.cilios2 {
-    height: 100%;
-    position: absolute;
-    transform: translate(100%, -20%);
-    gap: 0%;
-}
-
-
-.tipo1, .tipo2 {
-    display: flex;
-
-}
-
-.tipo1 {
-    margin-left: 5%;
-}
-
-.tipo2 {
-    margin-right: 5%;
-}
-
-.texto-tipo {
-    display: grid;
-    margin-left: 5%;
-    color: white;
-    margin-right: 5%;
-}
-
-.foto-tipo {
-    width: 15%;
-    height: 70px;
-    border-radius: 15%;
-    transition: transform 0.5s ease;
-}
-
-.titulo-tipo {
-    font-size: 30px;
-    font-family: 'Segoe Script', cursive;
-}
-
-.sobre-tipo {
-    font-size: 14px;
-}
-
-.foto-tipo:hover {
-    transform: scale(2);
-
-}
-
-
-
-
-
-
 .caixa-bio {
     background-color: #e8ded0;
 }
 
 .titulo-bio {
-    height: 50px;
-    padding-top: 20px;
-    transform: translate(10%);
+    height: 10vh;
+    width: 100%;
+    padding-top: 2%;
 }
 
 .texto-titulo-bio {
     font-size: 30px;
-    padding-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     font-family: 'Playfair Display', serif;
+    padding-left: 25vw;
 }
 
 .conteudo-bio {
-    height: 400px;
+    height: 70vh;
     width: 100%;
     display: flex;
 }
@@ -487,35 +398,34 @@ a {
 
 .img-fundo-bio {
     background-color: #4a301d;
-    width: 300px;
-    height: 350px;
-    transform: translate(170px, 20px);
+    width: 22vw;
+    height: 60vh;
+    transform: translate(13vw, 3vh);
     border-radius: 5%;
 }
 
 .bio {
-    transform: translateY(200px);
+    transform: translateY(35vh);
 }
 
 .texto-bio {
-    width: 500px;
-    font-size: 18px;
+    width: 35vw;
+    font-size: clamp(0.875rem, 0.5vw + 0.8rem, 1.5rem);
     line-height: 1.2;
 }
 
 .img-foto-bio {
-    width: 300px;
-    height: 350px;
+    width: 22vw;
+    height: 60vh;
     position: absolute;
     z-index: 2;
-    transform: translate(200px, 30px);
+    transform: translate(15vw, 5vh);
 }
 
 .foto-bio {
-    width: 300px;
-    height: 350px;
+    width: 22vw;
+    height: 60vh;
     border-radius: 5%;
-    /* object-fit: cover; */
 }
 
 .img-bio {
@@ -526,7 +436,7 @@ a {
 .caixas-contato {
     background-color: #a77b4585;
     width: 100%;
-    min-height: 250px;
+    height: 40vh;
     display: flex;
 }
 
@@ -535,12 +445,12 @@ a {
 }
 
 .logo-contato {
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 30vh;
     border-radius: 100%;
     border: 4px solid transparent;
     background: linear-gradient(white, white) padding-box, linear-gradient(45deg, #a77b4585, #4a301d) border-box;
-    margin-right: 100px;
+    margin-right: 20%;
 }
 
 .caixa-contato1 {
@@ -553,19 +463,19 @@ a {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 40px;
+    gap: 2vw;
 }
 
 .coluna-contatos {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 3vh;
 }
 
 .item-contato {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 2vw;
     text-decoration: none;
 }
 
@@ -576,9 +486,7 @@ a {
 .escrito {
     background-color: #4a301d;
     color: #e8ded0;
-    padding: 12px 15px;
     border-radius: 10px;
-    width: 260px;
     margin: 0;
     box-sizing: border-box;
 }
@@ -589,7 +497,7 @@ a {
     text-decoration: none;
     text-align: center;
     font-weight: bolder;
-    padding: 10px 15px;
+    padding: 2vh;
     border-radius: 10px;
     box-sizing: border-box;
     transition: transform 0.3s ease, background-color 0.3s ease;
@@ -602,27 +510,16 @@ a {
 
 
 .simbolo {
-    width: 50px;
-    height: 50px;
+    width: 4vw;
+    height: 8vh;
     border-radius: 100%;
     transition: transform 0.5s ease;
 
 }
 
-.simbolo-agendar {
-    background-color: #4a301d;
-    border-radius: 10px;
-}
-
 .texto-agendar {
-    padding: 10px;
+    padding: 3%;
     color: #e8ded0;
-}
-
-.caixa-simbolos {
-    padding-top: 20px;
-    margin-right: 240px;
-
 }
 
 .coluna-mapa {
@@ -632,54 +529,39 @@ a {
 }
 
 .mapa-google {
-    width: 300px;
-    height: 200px;
+    width: 20vw;
+    height: 32vh;
     border: 3px solid #4a301d;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-
-.simbolos {
-    padding-bottom: 10px;
-    display: grid;
-    gap: 5px;
-
-}
-
-.simbolo:hover {
-    transform: scale(1.2);
-
 }
 
 .contato-escrito {
     color: #e8ded0;
     position: relative;
     display: grid;
-    gap: 20px;
     position: absolute;
-    margin-bottom: 25px;
 }
 
 .escrito {
     background-color: #4a301d;
-    padding: 10px 10px;
-    width: 300px;
+    padding: 2vh 2vw;
+    width: 20vw;
     border-radius: 10px;
 }
 
 .zap-flutuante-foto {
     border-radius: 100%;
     width: 100%;
-    height: 1005;
+    height: 100%;
 }
 
 .zap-flutuante {
     position: fixed;
-    bottom: 25px;
-    right: 25px;
-    width: 50px;
-    height: 50px;
+    bottom: 2vh;
+    right: 1vw;
+    width: 4vw;
+    height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;

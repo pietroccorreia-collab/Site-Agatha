@@ -7,7 +7,7 @@ function mudarSlide(direcao) {
     slideAtual += direcao;
 
     if (slideAtual >= totalSlides) {
-        slideAtual = o
+        slideAtual = 0
     } else if (slideAtual < 0) {
         slideAtual = totalSlides-1;
     }
