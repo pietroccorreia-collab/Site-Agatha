@@ -1,3 +1,8 @@
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
 * {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -836,8 +841,10 @@ a {
   }
 
   .botao-agendar {
+    white-space: normal;
+    word-break: break-word;
     width: 100%;
-    padding: 14px;
+    padding: 14px 16px;
   }
 
   .mapa-google {
@@ -848,8 +855,8 @@ a {
 
   /* 7. BOTÃO FLUTUANTE WHATSAPP */
   .zap-flutuante {
-    width: 54px;
-    height: 54px;
+    width: 52px;
+    height: 52px;
     bottom: 16px;
     right: 16px;
   }
